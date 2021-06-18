@@ -23,6 +23,7 @@ if(e.key == "Enter"){
   socket.emit("chat", {username: username ,chat : chatInput.value})
 
   chatInput.value =" ";
+    chatwindow.scrollTop = chatwindow.scrollHeight;
 }
 
 })
