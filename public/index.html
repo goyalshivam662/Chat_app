@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeChAt</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    
+</head>
+<body>
+   
+<div class="chat-container">
+
+
+<div class="left-view">
+
+    <div class="me">
+        <div class="user-image">
+            <img src="download.png" alt="">
+        </div>
+       <div class="user-name"></div>
+    </div>
+    <div class="online-list">
+ <!-- <div class="user">
+            <div class="user-image">
+                <img src="download.png" alt="">
+            </div>
+           <div class="user-name">steve</div>
+
+        </div>  -->
+    </div>
+</div>
+<div class="right-view">
+
+    <div class="chat-window">
+<!-- 
+        <div class="chat join"> hello shivam i join !!</div>
+        <div class="chat leave"> leave hey i am trump</div>
+        <div class="chat left"> left  how are you ?</div>
+        <div class="chat right"> right i am fine</div>
+        <div class="chat right"> left  how </div>
+        <div class="chat left"> right i am fine</div> -->
+
+    </div>
+
+    <div class="chat-input-box">
+        <input type="text" class ="chat-input">
+    </div>
+</div>
+
+
+</div>
+
+<!---- scoket io -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js" integrity="sha512-iZIBSs+gDyTH0ZhUem9eQ1t4DcEn2B9lHxfRMeGQhyNdSUz+rb+5A3ummX6DQTOIs1XK0gOteOg/LPtSo9VJ+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src ="./script.js"></script>
+<script>
+const socket = io();
+
+</script>
+<script src ="./socket.js"></script>
+</body>
+
+</html>
